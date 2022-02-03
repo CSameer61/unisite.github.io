@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Melon Inc. Official Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://use.fontawesome.com/432786bc31.js"></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contacts.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificates & Online Programs</h1>
+    </section>
+    <!---------Blog------------->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" />
+          <h2>Our Certificates & Online Programmes</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut
+            debitis obcaecati error nam architecto fuga molestias eum suscipit
+            iste non dolores sed, corporis voluptates, excepturi voluptatem
+            earum doloremque ducimus! Itaque. Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Soluta fugiat nostrum quod a error
+            iste dolor rerum tempore facere esse quia totam repellendus, ducimus
+            consectetur doloribus blanditiis aut magni necessitatibus?
+          </p>
+          <br />
+          <p>
+            The European languages are members of the same family. Their
+            separate existence is a myth. For science, music, sport, etc, Europe
+            uses the same vocabulary. The languages only differ in their
+            grammar, their pronunciation and their most common words. Everyone
+            realizes why a new common language would be desirable: one could
+            refuse to pay expensive translators. To achieve this, it would be
+            necessary to have uniform grammar, pronunciation and more common
+            words
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo unde
+            impedit consectetur eius laudantium? Ducimus deleniti doloremque
+            accusantium enim quia et alias qui nam ratione possimus vel a, quod
+            deserunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Eius accusamus aliquam ea vitae, corrupti quae eveniet alias atque
+            officia cumque quis. Laudantium voluptates, cupiditate esse veniam
+            maiores qui dolorem similique. Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Tempore assumenda iure quia nam
+            ducimus nisi veniam, beatae dolores architecto consectetur
+            provident, enim officiis inventore sint dolorum dolorem ratione
+            fugiat cupiditate!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum
+            aliquam porro non voluptates error, odio corrupti tempora omnis in
+            ullam, magni rem nam sed voluptas veritatis vero dolorum eius
+            excepturi
+          </p>
+          <br />
+          <p>
+            The European languages are members of the same family. Their
+            separate existence is a myth. For science, music, sport, etc, Europe
+            uses the same vocabulary. The languages only differ in their
+            grammar, their pronunciation and their most common words. Everyone
+            realizes why a new common language would be desirable: one could
+            refuse to pay expensive translators. To achieve this, it would be
+            necessary to have uniform grammar, pronunciation and more common
+            words
+          </p>
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter E-mail" />
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Physics</span>
+            <span>24</span>
+          </div>
+          <div>
+            <span>Computer Sciencce</span>
+            <span>33</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>16</span>
+          </div>
+          <div>
+            <span>Architecture</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>20</span>
+          </div>
+          <div>
+            <span>Journalism</span>
+            <span>12</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------Footer------------->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+        exercitationem officia mollitia vitae quae corporis cumque eum odio<br />perferendis,
+        voluptas maxime? Cupiditate natus tenetur velit asperiores eos, aliquid
+        aperiam ipsam!
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Created by Sameer Chowdhury</p>
+    </section>
+
+    <!-----------Javascript for Menu------------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
